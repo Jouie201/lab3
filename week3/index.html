@@ -1,18 +1,96 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('Batman.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff; /* Set the font color to white */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            font-weight: bold;
+            color: #fff; /* Set the font color to white */
+        }
+
+        section p::after {
+            font-weight: normal;
+            content: ":";
+        }
+
+        section .unbold {
+            font-weight: normal; /* Unbold the specific part */
+        }
+
+        img {
+            max-width: 20%;
+            height: auto;
+        }
+
+        h1 {
+            color: #f4d542;
+        }
+
+        h2 {
+            color: #f4d542;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(255, 0, 0, 0.5);
+            color: #fff; /* Set the font color to white */
+        }
+    </style>
+    <title>Jouie Embudo Jr.'s Personal Website</title>
 </head>
-<body>
 
-<h1>This is a new Heading</h1>
-<p>This is a paragraph.</p>
-<p>This is a new  paragraph.</p>
-<p>This is another  new  paragraph.</p>
-<p>This is my entry as of 1:16 pm December 15.</p>
+<body background="Batman.jpg"> 
+    
+    <header>
+        <img src="Lc500.jpg">
+        <img src="Joei.jpg" alt="Jouie's Image">
+        <img src="Fortuner.jpg">
+        <h1>Jouie Embudo Jr.</h1>
+        <p>Age: 19 years old | Sex: Male</p>
+        <p>Course: BSIT MI-221</p>
+    </header>
 
+    <section>
+        <h2>About Me</h2>
+        <p>Hello! I am Jouie Embudo Jr., currently pursuing BSIT MI-221.</p>
+        <p>Hobbies: <span class="unbold">Playing Golf, Chess, Video Games, and Traveling.</span></p>
+        <p>Senior High School: <span class="unbold"> Asia Pacific College.</span></p>
+        <p>Junior High School: <span class="unbold"> Sangley Point National High School/Brainshire Science School of Paranaque</span></p>
+        <p>Elementary: <span class="unbold"> R and O Academy, D' Marcela Bacani Agam Academy Inc, Villamor Air Base Elementary School</span></p>
+        <p>Favorite Quote: <span class="unbold">  "The greatest revenge is being successful."</span></p>
+        <p>Favorite Food: <span class="unbold"> Tocino, Pares, and Adobo</span></p>
+        <p>Favorite Car: <span class="unbold"> Ford Mustang Shelby GT500</span></p>
+    </section>
 
-
+    <footer>
+        <p>© 2023 Jouie Embudo Jr. | Personal Website</p>
+    </footer>
 
 </body>
+
 </html>
