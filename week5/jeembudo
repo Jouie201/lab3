@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif; /* Change font-family to Times New Roman */
+            background: url('Batman.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            font-weight: bold;
+            color: #fff;
+        }
+
+        section p::after {
+            font-weight: normal;
+            content: ":";
+        }
+
+        section .unbold {
+            font-weight: normal;
+        }
+
+        img {
+            max-width: 20%;
+            height: auto;
+        }
+
+        h1 {
+            color: #f4d542;
+        }
+
+        h2 {
+            color: #f4d542;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(255, 0, 0, 0.5);
+            color: #fff;
+        }
+
+        /* Add a new style for the social media links */
+        .social-links {
+            text-align: right;
+            padding: 10px;
+        }
+
+        .social-links a {
+            margin: 0 10px;
+        }
+    </style>
+    <title>Jouie Embudo Jr.'s Personal Website</title>
+</head>
+
+<body background="Batman.jpg"> 
+    
+    <header>
+        <img src="Lc500.jpg">
+        <img src="Joei.jpg" alt="Jouie's Image">
+        <img src="Fortuner.jpg">
+        <h1>Jouie Embudo Jr.</h1>
+        <p>Age: 19 years old | Sex: Male</p>
+        <p>Course: BSIT MI-221</p>
+        <p>No: 09610351941</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>Hello! I am Jouie Embudo Jr., currently pursuing BSIT MI-221.</p>
+        <p>Hobbies: <span class="unbold">Playing Golf, Chess, Video Games, and Traveling.</span></p>
+        <p>Senior High School: <span class="unbold"> Asia Pacific College.</span></p>
+        <p>Junior High School: <span class="unbold"> Sangley Point National High School/Brainshire Science School of Paranaque</span></p>
+        <p>Elementary: <span class="unbold"> R and O Academy, D' Marcela Bacani Agam Academy Inc, Villamor Air Base Elementary School</span></p>
+        <p>Favorite Quote: <span class="unbold">  "The greatest revenge is being successful."</span></p>
+        <p>Favorite Food: <span class="unbold"> Tocino, Pares, and Adobo</span></p>
+        <p>Favorite Car: <span class="unbold"> Ford Mustang Shelby GT500</span></p>
+    </section>
+
+    <div class="social-links">
+        <a href="https://www.facebook.com/Jouieemsjr.shakesman" target="_blank"><img src="Facebook.png" alt="Facebook Logo" width="30" height="30"></a>
+        <a href="https://www.instagram.com/jfunnel_14/" target="_blank"><img src="ig.jpg" alt="Instagram Logo" width="30" height="30"></a>
+        <a href="https://www.tiktok.com/@joeyboi_11" target="_blank"><img src="tiktok.png" alt="TikTok Logo" width="30" height="30"></a>
+    </div>
+
+    <footer>
+        <p>© 2023 Jouie Embudo Jr. | Personal Website</p>
+    </footer>
+
+</body>
+</html>
