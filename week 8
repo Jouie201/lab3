@@ -1,0 +1,69 @@
+<?php
+// Define your personal information
+$name = "Jouie Embudo Jr.";
+$age = 19;
+$sex = "Male";
+$course = "BSIT MI-221";
+$contactNumber = "09610351941";
+
+// Define your hobbies, schools, quote, favorite food, and favorite car
+$hobbies = "Playing Golf, Chess, Video Games, and Traveling";
+$seniorHighSchool = "Asia Pacific College";
+$juniorHighSchool = "Sangley Point National High School/Brainshire Science School of Paranaque";
+$elementarySchool = "R and O Academy, D' Marcela Bacani Agam Academy Inc, Villamor Air Base Elementary School";
+$favoriteQuote = "The greatest revenge is being successful";
+$favoriteFood = "Tocino, Pares, and Adobo";
+$favoriteCar = "Ford Mustang Shelby GT500";
+
+// Define your social media links
+$facebookLink = "https://www.facebook.com/Jouieemsjr.shakesman";
+$instagramLink = "https://www.instagram.com/jfunnel_14/";
+$tiktokLink = "https://www.tiktok.com/@joeyboi_11";
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        <!-- Your CSS styles here -->
+    </style>
+    <title>Jouie Embudo Jr.'s Personal Website</title>
+</head>
+<body background="Batman.jpg"> 
+    
+    <header>
+        <div class="header-links">
+            <a href="index.html">HOME</a>
+            <a href="#">LOG OUT</a>
+        </div>
+        <img src="Lc500.jpg">
+        <img src="Joei.jpg" alt="Jouie's Image">
+        <img src="Fortuner.jpg">
+        <h1><?php echo $name; ?></h1>
+        <p>AGE: <?php echo $age; ?> years old | SEX: <?php echo $sex; ?></p>
+        <p>COURSE: <?php echo $course; ?></p>
+        <p>NO: <?php echo $contactNumber; ?></p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>I am <?php echo $name; ?>, a <?php echo $age; ?>-year-old pursuing a <?php echo $course; ?>. My journey in the field of IT is driven by a passion for technology and multimedia integration. The belief that "<?php echo $favoriteQuote; ?>" serves as my personal motto, motivating me to strive for excellence in my academic and personal endeavors.</p>
+        <p>My interests extend beyond academics, encompassing a wide range of hobbies. I find joy in <?php echo $hobbies; ?>. My academic journey commenced at <?php echo $seniorHighSchool; ?> during my Senior High School years, where I laid the foundation for my IT career. Prior to that, I attended <?php echo $juniorHighSchool; ?> during my junior high school years. My educational journey began at <?php echo $elementarySchool; ?>, reflecting my lifelong commitment to learning.</p>
+        <p>In addition to my academic pursuits, I have a deep appreciation for culinary delights. <?php echo $favoriteFood; ?> are among my favorite Filipino dishes, reflecting my love for local cuisine. Moreover, I hold a profound fascination with automotive engineering, and the <?php echo $favoriteCar; ?> holds a special place as my favorite car. The precision, design, and innovation behind high-performance vehicles resonate with my passion for excellence.</p>
+    </section>
+
+    <div class="social-links">
+        <a href="<?php echo $facebookLink; ?>" target="_blank"><img src="Facebook.png" alt="Facebook Logo" width="30" height="30"></a>
+        <a href="<?php echo $instagramLink; ?>" target="_blank"><img src="ig.jpg" alt="Instagram Logo" width="30" height="30"></a>
+        <a href="<?php echo $tiktokLink; ?>" target="_blank"><img src="tiktok.png" alt="TikTok Logo" width="30" height="30"></a>
+    </div>
+
+    <footer>
+        <p>© 2023 <?php echo $name; ?> | Personal Website</p>
+    </footer>
+
+</body>
+</html>
